@@ -16,8 +16,8 @@ This document aims to review the progress in KGE research from 2021 to 2024 in t
 ## Paper Summary by Year
 
 ### Year 2024
-- NeurIPS 2024
+- AAAI 2024
   
-| Name         | Author          |Title                                    | Summarize                                                   | Paper Link                          | Code Link                          |
-|--------------|--------------|------------------------------------------|-------------------------------------------------------------|-------------------------------------|------------------------------------|
-| Author 1     |Author 1      | Example Title 1                          | A brief summary of the paper content.                        | [Link](http://example.com/paper1)   | [Code](http://example.com/code1)   |
+| Name         | Author          |Title                                    |task      | Summarize                                                   | Paper Link                          | Code Link                          |
+|--------------|--------------|------------------------------------------|----------------|-------------------------------------------------------------|-------------------------------------|------------------------------------|
+| APST     |Zhixiang Su (NTU)      | Anchoring Path for Inductive Relation Prediction in Knowledge Graphs       |Inductive Relation Prediction |  Replacing the reliance on closed paths by introducing anchoring paths (APs)               | [Link](https://arxiv.org/pdf/2312.13596)   | [Code]   |
