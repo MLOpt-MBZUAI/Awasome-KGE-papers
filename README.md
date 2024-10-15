@@ -1,4 +1,4 @@
-# Awasome Knowledge Graph Embedding (KGE) Papers (2021-2024)
+# Awesome Knowledge Graph Embedding (KGE) Papers (2021-2024)
 
 ## Table of Contents
 1. [Introduction](#introduction)
