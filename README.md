@@ -1,8 +1,11 @@
-# Awesome Knowledge Graph Embedding (KGE) Papers (2021-2024)
+# Awesome Knowledge Graph Embedding (KGE) Papers (2021-2026)
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Paper Summary by Year](#paper-summary-by-year)
+2. [Verified ICLR / ICML / NeurIPS Papers (2025-2026)](#verified-iclr--icml--neurips-papers-2025-2026)
+3. [Paper Summary by Year](#paper-summary-by-year)
+   - [Year 2026](#year-2026)
+   - [Year 2025](#year-2025)
    - [Year 2024](#year-2024)
    - [Year 2023](#year-2023)
    - [Year 2022](#year-2022)
@@ -11,9 +14,57 @@
 ## Introduction
 Knowledge Graph Embeddings (KGE) aim to map entities and relations from knowledge graphs into low-dimensional space while preserving the graph structure. Over recent years, KGE has played a significant role in various applications such as recommendation systems, question-answering systems, and healthcare.
 
-This document aims to review the progress in KGE research from 2021 to 2024 in top-tier conferences such as NeurIPS, ICLR, ICML, AAAI, ACL, EMNLP, IJCAI, SIGIR, WWW and KDD. We will analyze the most influential papers of each year, explore the evolution of methods, and discuss future directions.
+This document reviews progress in KGE research from 2021 to 2026. The 2025-2026 update is restricted to accepted main-conference papers at ICLR, ICML, and NeurIPS and uses official conference or proceedings pages as the canonical paper links. Earlier sections retain the broader venue coverage of the original list.
+
+## Verified ICLR / ICML / NeurIPS Papers (2025-2026)
+
+Last verified: **2026-08-21**.
+
+In scope: representation learning, embedding, completion, and reasoning methods whose primary object is a knowledge graph. KG-assisted LLM and downstream systems are also cross-listed in the companion [KG-Agent list](https://github.com/MLOpt-MBZUAI/KG-Agent-awesome-paper). Workshops, position papers, submissions, withdrawn papers, and arXiv-only work are excluded.
+
+| Year | Venue | Paper | Focus | Code |
+| --- | --- | --- | --- | --- |
+| 2026 | ICML | [Generative Representation Learning on Hyper-relational Knowledge Graphs via Masked Discrete Diffusion](https://icml.cc/virtual/2026/poster/61945) | Hyper-relational KG representation | — |
+| 2026 | ICML | [Beyond Explicit Edges: Robust Reasoning over Noisy and Sparse Knowledge Graphs](https://icml.cc/virtual/2026/poster/66268) | Robust KG reasoning | — |
+| 2026 | ICML | [Conformal Path Reasoning: Trustworthy Knowledge Graph Question Answering via Path-Level Calibration](https://icml.cc/virtual/2026/poster/61364) | Calibrated path reasoning | — |
+| 2026 | ICML | [RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurrent Soft-Flow and Decoupled LLM Generation](https://icml.cc/virtual/2026/poster/62235) | Multi-hop KGQA | — |
+| 2026 | ICLR | [Flock: A Knowledge Graph Foundation Model via Learning on Random Walks](https://iclr.cc/virtual/2026/poster/10011812) | KG foundation models | — |
+| 2026 | ICLR | [Beyond Entity Correlations: Disentangling Event Causal Puzzles in Temporal Knowledge Graphs](https://iclr.cc/virtual/2026/poster/10009475) | Temporal KG reasoning | — |
+| 2026 | ICLR | [VoG: Enhancing LLM Reasoning through Stepwise Verification on Knowledge Graphs](https://iclr.cc/virtual/2026/poster/10011940) | Verified KG reasoning | — |
+| 2026 | ICLR | [DAMR: Efficient and Adaptive Context-Aware Knowledge Graph Question Answering with LLM-Guided MCTS](https://iclr.cc/virtual/2026/poster/10007571) | KGQA | — |
+| 2026 | ICLR | [Plan-Answer-Refine-on-Graph: Structured Planning and Self-Refinement for Large Language Model Reasoning on Knowledge Graphs](https://iclr.cc/virtual/2026/poster/10008177) | KG reasoning | — |
+| 2026 | ICLR | [Knowledge Reasoning Language Model: Unifying Knowledge and Language for Inductive Knowledge Graph Reasoning](https://iclr.cc/virtual/2026/poster/10011712) | Inductive KG reasoning | — |
+| 2026 | ICLR | [Explore-on-Graph: Incentivizing Autonomous Exploration of Large Language Models on Knowledge Graphs with Path-refined Reward Modeling](https://iclr.cc/virtual/2026/poster/10009840) | Path-based KG reasoning | — |
+| 2026 | ICLR | [Controllable Logical Hypothesis Generation for Abductive Reasoning in Knowledge Graphs](https://iclr.cc/virtual/2026/poster/10007408) | Abductive KG reasoning | — |
+| 2026 | ICLR | [Inductive Reasoning for Temporal Knowledge Graphs with Emerging Entities](https://iclr.cc/virtual/2026/poster/10007438) | Temporal KG reasoning | — |
+| 2026 | ICLR | [Learning with Dual-level Noisy Correspondence for Multi-modal Entity Alignment](https://iclr.cc/virtual/2026/poster/10007522) | Multimodal entity alignment | — |
+| 2025 | NeurIPS | [Towards Graph Foundation Models: Training on Knowledge Graphs Enables Transferability to General Graphs](https://proceedings.neurips.cc/paper_files/paper/2025/hash/de04896f011beff76c91e094f72727f4-Abstract-Conference.html) | KG foundation models | — |
+| 2025 | NeurIPS | [DuetGraph: Coarse-to-Fine Knowledge Graph Reasoning with Dual-Pathway Global-Local Fusion](https://proceedings.neurips.cc/paper_files/paper/2025/hash/41b1f9cb89181adb6efa5031766234c0-Abstract-Conference.html) | KG reasoning | — |
+| 2025 | NeurIPS | [LBMKGC: Large Model-Driven Balanced Multimodal Knowledge Graph Completion](https://proceedings.neurips.cc/paper_files/paper/2025/hash/a254abbfdd029d388fc35fd850bbc551-Abstract-Conference.html) | Multimodal KGC | [GitHub](https://github.com/guoynow/LBMKGC) |
+| 2025 | NeurIPS | [Uncertain Knowledge Graph Completion via Semi-Supervised Confidence Distribution Learning](https://proceedings.neurips.cc/paper_files/paper/2025/hash/fa85fd32bffe2a6312a663a235632d3d-Abstract-Conference.html) | Uncertain KGC | — |
+| 2025 | NeurIPS | [Scalable Feature Learning on Huge Knowledge Graphs for Downstream Machine Learning](https://proceedings.neurips.cc/paper_files/paper/2025/hash/f824d14046c8acc75957f1059800bb73-Abstract-Conference.html) | Large-scale KG representation | — |
+| 2025 | NeurIPS | [NeuSymEA: Neuro-symbolic Entity Alignment via Variational Inference](https://proceedings.neurips.cc/paper_files/paper/2025/hash/85632be2cd69e9a0ef4ba054c096fac9-Abstract-Conference.html) | Entity alignment | — |
+| 2025 | ICML | [Improving Soft Unification with Knowledge Graph Embedding Methods](https://proceedings.mlr.press/v267/cui25b.html) | Soft unification and KGE | — |
+| 2025 | ICML | [TeDS: Joint Learning of Diachronic and Synchronic Perspectives in Quaternion Space for Temporal Knowledge Graph Completion](https://proceedings.mlr.press/v267/guo25u.html) | Temporal KGC | — |
+| 2025 | ICML | [How Expressive are Knowledge Graph Foundation Models?](https://proceedings.mlr.press/v267/huang25a.html) | Expressivity | — |
+| 2025 | ICML | [Stability and Generalization Capability of Subgraph Reasoning Models for Inductive Knowledge Graph Completion](https://proceedings.mlr.press/v267/hwang25a.html) | Inductive KGC theory | — |
+| 2025 | ICML | [Structure Is All You Need: Structural Representation Learning on Hyper-Relational Knowledge Graphs](https://proceedings.mlr.press/v267/lee25ah.html) | Hyper-relational KGs | — |
+| 2025 | ICLR | [Reasoning of Large Language Models over Knowledge Graphs with Super-Relations](https://iclr.cc/virtual/2025/poster/28196) | LLM-based KG reasoning | — |
+| 2025 | ICLR | [Towards Synergistic Path-based Explanations for Knowledge Graph Completion: Exploration and Evaluation](https://iclr.cc/virtual/2025/poster/29360) | Explainable KGC | — |
+| 2025 | ICLR | [INFER: A Neural-symbolic Model For Extrapolation Reasoning on Temporal Knowledge Graph](https://iclr.cc/virtual/2025/poster/30378) | Temporal KG reasoning | — |
+| 2025 | ICLR | [Multiple Heads are Better than One: Mixture of Modality Knowledge Experts for Entity Representation Learning](https://iclr.cc/virtual/2025/poster/27966) | Multimodal entity representation | [GitHub](https://github.com/zjukg/MoMoK) |
+
+NeurIPS 2026 proceedings were not available as of the verification date; submissions and rebuttal manuscripts are therefore not listed.
 
 ## Paper Summary by Year
+
+### Year 2026
+
+See the verified main-conference table above. Fourteen ICLR and ICML 2026 papers met the scope.
+
+### Year 2025
+
+See the verified main-conference table above. Fifteen ICLR, ICML, and NeurIPS 2025 papers met the scope.
 
 ### Year 2024
 - AAAI 2024
@@ -24,7 +75,7 @@ This document aims to review the progress in KGE research from 2021 to 2024 in t
 |ImgFact |Jingping Liu (ECUST) | Beyond Entities: A Large-Scale Multi-Modal Knowledge Graph with Triplet Fact Grounding |Multi-modal Knowledge Graph Construction |  The paper introduces ImgFact, a novel large-scale multi-modal knowledge graph that grounds triplet facts (entities and relations) on images to enhance the performance of NLP tasks like relation classification and link prediction.               | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/29828/31438)   | [Code](https://github.com/kleinercubs/ImgFact)  |
 | KGEditor | Siyuan Cheng (Zhejiang University) | Editing Language Model-Based Knowledge Graph Embeddings | Editing and updating Knowledge Graph embeddings efficiently | The paper proposes KGEditor, a strong baseline that allows efficient updates and edits of knowledge graph embeddings without re-training, using additional parametric layers via a hypernetwork. | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/29737) | [Code](https://github.com/AnonymousForPapers/DeltaKG) |
 | HGE | Jiaxin Pan (University of Stuttgart) | HGE: Embedding Temporal Knowledge Graphs in a Product Space of Heterogeneous Geometric Subspaces | Temporal Knowledge Graph Embedding | The paper introduces HGE, a method that embeds temporal knowledge graphs into a product space consisting of multiple heterogeneous geometric subspaces, using both temporal-relational and temporal-geometric attention mechanisms to model diverse temporal patterns. | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/28739) | [Code](https://github.com/NacyNiko/HGE) |
-| KGDM | Xiao Long (USTC) | KGDM: A Diffusion Model to Capture Multiple Relation Semantics for Knowledge Graph Embedding | Knowledge Graph Embedding | The paper proposes KGDM, a novel diffusion model for embedding knowledge graphs, designed to capture multiple relation semantics using denoising diffusion probabilistic models to improve performance on knowledge graph completion tasks. | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/28732s) | [Code](https://github.com/key2long/KGDM)|
+| KGDM | Xiao Long (USTC) | KGDM: A Diffusion Model to Capture Multiple Relation Semantics for Knowledge Graph Embedding | Knowledge Graph Embedding | The paper proposes KGDM, a novel diffusion model for embedding knowledge graphs, designed to capture multiple relation semantics using denoising diffusion probabilistic models to improve performance on knowledge graph completion tasks. | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/28732) | [Code](https://github.com/key2long/KGDM)|
 | LAFA | Bin Shang (Xi’an Jiaotong University) | LAFA: Multimodal Knowledge Graph Completion with Link Aware Fusion and Aggregation | Multimodal Knowledge Graph Completion | The paper presents LAFA, a model that improves multimodal knowledge graph completion by leveraging a link-aware fusion and aggregation mechanism, which selectively fuses visual and structural embeddings based on the importance of images and structural relationships in different link scenarios. | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/28744) | [Code] |
 | MGTCA | Bin Shang (Xi’an Jiaotong University) | Mixed Geometry Message and Trainable Convolutional Attention Network for Knowledge Graph Completion | Knowledge Graph Completion | The paper presents MGTCA, a model that integrates mixed geometry spaces and trainable convolutional attention networks to enhance knowledge graph completion tasks by improving neighbor message aggregation and representation quality. | [Link](https://ojs.aaai.org/index.php/AAAI/article/download/28745/29434) | [Code] |
 | MKG-FENN | Di Wu (Chongqing University of Posts and Telecommunications) | MKG-FENN: A Multimodal Knowledge Graph Fused End-to-End Neural Network for Accurate Drug–Drug Interaction Prediction | Drug–Drug Interaction Prediction | The paper introduces MKG-FENN, a model that uses multimodal knowledge graphs and a fused end-to-end neural network to predict drug-drug interactions with high accuracy by extracting and fusing drug-related features. | [Link](https://ojs.aaai.org/index.php/AAAI/article/view/28887) | [Code](https://github.com/wudi1989/MKG-FENN) |
